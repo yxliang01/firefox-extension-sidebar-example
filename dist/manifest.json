@@ -1,0 +1,21 @@
+{
+  "description": "A simple extension that injects a sidebar into a page using sidebarjs",
+  "manifest_version": 2,
+  "name": "Firefox Sidebarjs Example",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/yxliang01/firefox-extension-sidebar-example",
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "icons": {
+    "256": "icons/icon.jpg"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.jpg"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
